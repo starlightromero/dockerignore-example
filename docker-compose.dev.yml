@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  dockerignore-dev:
+    image: dockerignore-dev
+    build:
+        context: .
+        dockerfile: Dockerfile.dev
+    container_name: dockerignore-dev
+    env_file:
+      - .env
+    ports:
+      - 8080:8080
