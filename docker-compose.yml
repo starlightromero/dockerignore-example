@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  dockerignore-prod:
+    image: dockerignore-prod
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: dockerignore-prod
+    env_file:
+      - .env
+    ports:
+      - 8080:8080
