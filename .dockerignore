@@ -7,6 +7,5 @@ docker-compose.dev.yml
 docker-compose.yml
 Dockerfile
 Dockerfile.dev
-main_test.go
 Makefile
 README.md
