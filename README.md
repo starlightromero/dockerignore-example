@@ -33,6 +33,12 @@ Run the application!
 
 `stop-dev`: Stop dockerignore-example dev app
 
+`build-test`: Build dockerignore-example test app
+
+`start-test`: Start dockerignore-example test app
+
+`stop-test`: Stop dockerignore-example test app
+
 `build-prod`: Build dockerignore-example prod app
 
 `start-prod`: Start dockerignore-example prod app
