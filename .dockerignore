@@ -1,6 +1,7 @@
 .git
 .vscode
 .dockerignore
+.env
 .gitignore
 docker-compose.dev.yml
 docker-compose.yml
