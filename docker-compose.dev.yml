@@ -6,6 +6,8 @@ services:
         context: .
         dockerfile: Dockerfile.dev
     container_name: dockerignore-dev
+    volumes:
+      - ./main.go:/app/main.go
     env_file:
       - .env
     ports:
