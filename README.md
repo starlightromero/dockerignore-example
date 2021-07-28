@@ -1,5 +1,7 @@
 # Dockerignore Example
 
+The corresponding article can be found [here](https://medium.com/nerd-for-tech/bigger-dockerignore-smaller-docker-images-49fa22e51c7).
+
 Dockerignore Example serves to show how `.dockerignore` files work and the benefits of using them, along with various examples.
 
 
